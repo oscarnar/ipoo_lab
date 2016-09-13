@@ -9,14 +9,21 @@ main()
 
     return 0;
 }
-int main()
-{
-    strindex(s,t)file:///home/cs22/Desktop/mayus/main.c
 
+int strindex(char s[], char t)
+{
+    int i,x;
+    x=strlen(s);
+    for (x;x==0;x=x-1)
+    {
+        if (s[x]==t)
+            return x;
+    }
+    return -1;
 }
-
-int main()
+main()
 {
-    char palabra[]={hola};
-    inver[strlen]=inver[strlen-1]
+char s[]="ciencia de la computacion";
+char t='n';
+printf("%d",strindex(s,t));
 }
